@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #47505d;
+}
+.container{
+    height: 400px;
+    width: 200px;
+    padding: 40px;
+    background:#010e21;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(46, 31, 31);
+}
+.heading{
+    color:white;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.container form .display{
+    height: 40px;
+    width: 150px;
+}
+.container form .display input{
+    height: 40px;
+    width: 195px;
+    text-align: end;
+    border-radius: 10px;
+    border: 3px solid blue;
+    box-shadow: #010e21;
+}
+.container .first-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .first-row input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.container .first-row .bFirst{
+    margin-left: 10px;
+}
+#divide{
+    background-color: green;
+}
+
+.container .second-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .second-row input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.container .second-row .bSecond{
+    margin-left: 10px;
+}
+#astrick{
+    background-color: green;
+}
+
+
+
+.container .third-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .third-row input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.container .third-row .bThird{
+    margin-left: 10px;
+}
+#minus{
+    background-color: green;
+}
+
+
+.container .forth-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .forth-row input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.container .forth-row .bForth{
+    margin-left: 10px;
+}
+#plus{
+    background-color: green;
+}
+
+
+.container .fifth-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .fifth-row input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.container .fifth-row .bFifth{
+    margin-left: 10px;
+}
+.all_clear{
+    background-color: red;
+}
+.clear{
+    background-color: red;
+    margin-left: 10px;
+}
+.bFifth{
+    background-color: green;
+}

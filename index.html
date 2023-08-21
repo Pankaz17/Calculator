@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple calculator by Pankaj</title>
+</head>
+<body>
+    <div class="heading">Calculator by Pankaj</div>
+    <div class="container">
+        <form action="">
+            <div class="display">
+                <input type="text" id="display" name="display">
+            </div>
+            <div class="first-row">
+                <input type="button" value="7" onclick="display.value += '7'">
+                <input type="button" value="8" class="bFirst" onclick="display.value += '8'">
+                <input type="button" value="9" class="bFirst" onclick="display.value += '9'">
+                <input type="button" value="/" id="divide" class="bFirst" onclick="display.value += '/'">
+            </div>
+            <div class="second-row">
+                <input type="button" value="4" onclick="display.value += '4'">
+                <input type="button" value="5" class="bSecond" onclick="display.value += '5'">
+                <input type="button" value="6" class="bSecond" onclick="display.value += '6'">
+                <input type="button" value="*" id="astrick" class="bSecond" onclick="display.value += '*'">
+            </div>
+            <div class="third-row">
+                <input type="button" value="1" onclick="display.value += '1'">
+                <input type="button" value="2" class="bThird" onclick="display.value += '2'">
+                <input type="button" value="3" class="bThird" onclick="display.value += '3'">
+                <input type="button" value="-" id="minus" class="bThird" onclick="display.value += '-'">
+            </div>
+            <div class="forth-row">
+                <input type="button" value="0" onclick="display.value += '0'">
+                <input type="button" value="00" class="bForth" onclick="display.value += '00'">
+                <input type="button" value="." class="bForth" onclick="display.value += '.'">
+                <input type="button" value="+" id="plus" class="bForth" onclick="display.value += '+'">
+            </div>
+            <div class="fifth-row">
+                <input type="button" value="AC" class="all_clear" onclick="display.value = ''">
+                <input type="button" value="C" class="clear" onclick="display.value = display.value.toString().slice(0, -1)" class="bFifth">
+                <input type="button" value="%"  class="bFifth" onclick="display.value += '%'">
+                <input type="button" value="=" onclick="display.value = eval(display.value)" class="bFifth">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
